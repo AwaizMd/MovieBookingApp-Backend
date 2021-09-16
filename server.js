@@ -20,10 +20,10 @@ const http = require("http");
 const app = require("./app");
 
 //port
-const PORT = process.env.PORT || 8085;
+// const PORT = process.env.PORT || 8085;
 
 const server = http.createServer(app); //create server
 
-server.listen(PORT, () => {
-  console.log(`🚀 server listening on port ${PORT}`);
-});
+// server.listen(PORT, () => {
+//   console.log(`🚀 server listening on port ${PORT}`);
+// });
